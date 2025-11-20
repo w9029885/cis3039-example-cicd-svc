@@ -24,6 +24,13 @@ export const getProductRepo = (): ProductRepo => {
         description: 'Another seeded product to get you started.',
         updatedAt: now,
       },
+      {
+        id: 'p-003',
+        name: "Adam's Product",
+        pricePence: 100,
+        description: 'Testing adding new product',
+        updatedAt: now,
+      },
     ];
     cachedProductRepo = new FakeProductRepo(initialProducts);
   }
