@@ -28,7 +28,7 @@ export const getProductRepo = (): ProductRepo => {
         id: 'p-003',
         name: "Adam's Product",
         pricePence: 100,
-        description: 'Testing adding new product',
+        description: 'Testing adding new prodhgfeuct',
         updatedAt: now,
       },
     ];
